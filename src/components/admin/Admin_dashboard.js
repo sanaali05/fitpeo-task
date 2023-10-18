@@ -21,14 +21,14 @@ const Admin_dashboard = () => {
             <main className="col-md-9 ms-sm-auto col-lg-10 px-md-4 " style={{ backgroundColor: "#F5F6F8" }} >
                 <div className="container-fluid ">
                 <div className="row d-flex justify-content-between  align-items-center pt-3 pb-2">
-                    <div className='col-8'>
+                    <div className='col-7'>
                         <h4 className="">Hello Sharukh <i className="bi bi-person-raised-hand"></i> , </h4>
                     </div>  
-                    <div className="col-4">
+                    <div className="col-5">
                         <form role="search">
                             <div className='d-flex bg-white'>
                                 <button className="btn" type="submit"><i className="bi bi-search"></i></button>
-                                <input className="form-control me-2 border-0" type="search" placeholder="Search" aria-label="Search" />
+                                <input className="form-control border-0" type="search" placeholder="Search" aria-label="Search" />
                             </div>
                         </form>
                     </div>
